@@ -56,7 +56,7 @@ the library name in the supplied configuration.
 
 Three processes are required: Routing Service, the subscriber and the publisher.
 Run them in separate terminals from
-`<install dir>/examples/tsfm_unbounded2bounded/`. On Linux, set the following in
+`<install dir>/examples/unbounded2bound/`. On Linux, set the following in
 each terminal, replacing the installation paths as needed:
 
 ```sh
@@ -64,7 +64,7 @@ export NDDSHOME=/opt/rti_connext_dds-7.7.0
 export GATEWAY_INSTALL=/path/to/rticonnextdds-gateway/install
 export PATH="$NDDSHOME/bin:$PATH"
 export LD_LIBRARY_PATH="$GATEWAY_INSTALL/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-cd "$GATEWAY_INSTALL/examples/unbounded2bounded"
+cd "$GATEWAY_INSTALL/examples/unbounded2bound"
 ```
 
 > **NOTE**: `librtiunbounded2boundedtransf.so` must be reachable by the operating
